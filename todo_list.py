@@ -10,7 +10,7 @@ def show_menu():
 while True:
 
     show_menu()
-    choice = input("Choose option: ")
+    choice = input("Choose an option: ")
 
     if choice == '1':
         task = input("Enter a new task: ")
