@@ -8,8 +8,9 @@ def show_menu():
     print("4. Exit")
 
 while True:
+
     show_menu()
-    choice = input("Choose an option: ")
+    choice = input("Choose option: ")
 
     if choice == '1':
         task = input("Enter a new task: ")
